@@ -1,7 +1,18 @@
+sudo: false
 language: node_js
 node_js:
-  - "0.10"
-  - "4"
-  - "5"
-script:
-  - npm test
+- '0.10'
+- '4'
+- '5'
+- '6'
+before_deploy:
+- npm-prepublish --verbose
+deploy:
+  provider: npm
+  email: mrnoname@naver.com
+  api_key:
+    secure: V99XS2IcOETfLM3rpSRYlZCTF5KOznJyQ/HBW17Cjl8eNJ2zN9ASN36uR1DOtTcDPbByjY45tY1etriMlXWV+r9Uirb+9TgHSE9ulCHQUQxMhzU1QhuRV0zfv9sgVoUM4BJVm9fFcCbf3WNY18w4hDhk4NVj1vq0Rl9meI+GNSUlz+kJ2g8OtGc58mAXwkd+Op1OiaSSlcbIop5l5GVwHrJl9t9g4Y9H11z/Yp52UREgYXfCfczlXG+aeA+eU2O+isF94N+WrbyuwCcDWUxynB4E1GuGP4CIZjRRd/d5mr+eemUOxRYaAZJPnZXsZR/0f7SO/ToFUmi2cotOCTAiqikxORwWXyCO3ehAfokG4qeP69gaIl2ZAs+tUCEdruNLvDmt9xysqhSwXp11IYBwdn7RRNdX1kqYnaC6RI92RLzG6ZE6SHRhrAQkpbRkBFE/b+p1xlz/HsPfYs1vwvCNMRJ7Zl+5hMCg6DjD7WwlVuRecOaRSLygXmao3JENBykod3jOihEJXYynbfrBSOEBGyBdybe0EEuyj0spoQJP5iHF4Kk7WvuhrAEiS14aG8GnCWDy83asPoMDwqa6hX9ScZjIvhkZ6whJTy6TBczmVQ5P2s81ckfYJXLUxU+fI+pVwZLlKv/kSBPEEhfnGAIY+j8iTEkG2oN0zqr+/2UP6+s=
+  on:
+    all_branches: true
+    tags: true
+    repo: Pitzcarraldo/universal-fetch
