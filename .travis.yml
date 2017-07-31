@@ -15,4 +15,4 @@ deploy:
   on:
     all_branches: true
     tags: true
-    repo: Pitzcarraldo/universal-fetch
+    repo: pitzcarraldo/universal-fetch

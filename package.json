@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pitzcarraldo/universal-fetch.git"
+    "url": "https://github.com/pitzcarraldo/universal-fetch.git"
   },
   "author": "Minkyu Cho <mrnoname@naver.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pitzcarraldo/universal-fetch/issues"
+    "url": "https://github.com/pitzcarraldo/universal-fetch/issues"
   },
-  "homepage": "https://github.com/Pitzcarraldo/universal-fetch/issues",
+  "homepage": "https://github.com/pitzcarraldo/universal-fetch/issues",
   "dependencies": {
     "fetch-ie8": "^1.4.0",
     "node-fetch": "^1.3.3"

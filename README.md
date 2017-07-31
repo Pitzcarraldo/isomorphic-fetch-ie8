@@ -1,4 +1,7 @@
-Universal-Fetch [![Build Status](https://travis-ci.org/Pitzcarraldo/universal-fetch.svg?branch=master)](https://travis-ci.org/Pitzcarraldo/universal-fetch)
+Universal-Fetch
+[![Build Status](https://travis-ci.org/pitzcarraldo/universal-fetch.svg?branch=master)](https://travis-ci.org/pitzcarraldo/universal-fetch)
+[![npm version](https://img.shields.io/npm/v/universal-fetch.svg?style=flat-square)](https://www.npmjs.com/package/universal-fetch)
+[![npm downloads](https://img.shields.io/npm/dm/universal-fetch.svg?style=flat-square)](https://www.npmjs.com/package/universal-fetch)
 ================
 
 Fetch for node and browser (Webpack, Browserify) with IE8 support. Built on top of [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
